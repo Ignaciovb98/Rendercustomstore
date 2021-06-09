@@ -3,3 +3,14 @@
         @content
     }
 }
+@mixin formulario {
+    @media (min-width:480px) {
+        @content
+    }
+    
+}
+@mixin buscador{
+    @media (min-width:1420px){
+        @content
+    }
+}
